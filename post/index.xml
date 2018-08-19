@@ -6,18 +6,22 @@
     <description>Recent content in Posts on yolossn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Aug 2018 18:08:05 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 20:43:28 +0530</lastBuildDate>
     
 	<atom:link href="https://www.yolossn.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://www.yolossn.com/post/test/</link>
-      <pubDate>Sun, 19 Aug 2018 18:08:05 +0530</pubDate>
+      <title>The Site Is Live!!</title>
+      <link>https://www.yolossn.com/post/the-site-is-live/</link>
+      <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
       
-      <guid>https://www.yolossn.com/post/test/</guid>
-      <description>Test</description>
+      <guid>https://www.yolossn.com/post/the-site-is-live/</guid>
+      <description>Hey Pals !
+It has been a long time goal for me to have a personal blog and atlast it is live now. Hope i will write frequently.
+I am using hugo static site generator and github pages to host this blog.
+If you are curious about the theme which i am using feel free to checkout tranquilpeak
+Since I am new to using static site generators I am going to test the features in the rest of the blog feel free to stop reading if you are not here for it.</description>
     </item>
     
   </channel>

@@ -6,9 +6,28 @@
     <description>Recent content in Tags on yolossn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 19 Aug 2018 20:43:28 +0530</lastBuildDate>
     
 	<atom:link href="https://www.yolossn.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.yolossn.com/tags/blog/</link>
+      <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
+      
+      <guid>https://www.yolossn.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://www.yolossn.com/tags/test/</link>
+      <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
+      
+      <guid>https://www.yolossn.com/tags/test/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
