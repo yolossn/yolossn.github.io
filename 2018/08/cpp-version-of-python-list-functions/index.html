@@ -1,64 +1,85 @@
-
-
-  
-    
-  
-
-
-  
-
-
-
-
-
-  
-
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.40.1 with theme Tranquilpeak 0.4.3-BETA">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.58.3 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="Santhosh Nagaraj S">
+<meta name="keywords" content="list, Array, CPP, Python, Function Alternatives, yolossn, santhosh nagaraj s, Santhosh Nagaraj S">
+<meta name="description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
+Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
+
+
+<meta property="og:description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
+Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CPP version of Python List functions">
+<meta name="twitter:title" content="CPP version of Python List functions">
+<meta property="og:url" content="https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/">
+<meta property="twitter:url" content="https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/">
+<meta property="og:site_name" content="yolossn">
+<meta property="og:description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
+Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
+<meta name="twitter:description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
+Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
+<meta property="og:locale" content="en">
+
+  
+    <meta property="article:published_time" content="2018-08-20T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2018-08-20T00:00:00">
+  
+  
+  
+  
+    
+      <meta property="article:tag" content="tutorial">
+    
+      <meta property="article:tag" content="Python">
+    
+      <meta property="article:tag" content="CPP">
+    
+      <meta property="article:tag" content="Vector">
+    
+      <meta property="article:tag" content="List">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+  <meta name="twitter:site" content="@yolossn">
+
+
+  <meta name="twitter:creator" content="@yolossn">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.dropbox.com/s/w8uflqodc3inkd7/vector.png?raw=1">
+  <meta property="twitter:image" content="https://www.dropbox.com/s/w8uflqodc3inkd7/vector.png?raw=1">
+
+
+
+
+  <meta property="og:image" content="https://www.dropbox.com/s/bsloiqcnzmg0dsi/avatar.jpeg?raw=1">
+  <meta property="twitter:image" content="https://www.dropbox.com/s/bsloiqcnzmg0dsi/avatar.jpeg?raw=1">
+
+
     <title>CPP version of Python List functions</title>
-    <meta name="author" content="Santhosh Nagaraj S">
-    <meta name="keywords" content="list, Array, CPP, Python, Function Alternatives, yolossn, santhosh nagaraj s, Santhosh Nagaraj S">
 
     <link rel="icon" href="https://www.yolossn.com/favicon.png">
     
 
     
-    <meta name="description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
-Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
-    <meta property="og:description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
-Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="CPP version of Python List functions">
-    <meta property="og:url" content="/2018/08/cpp-version-of-python-list-functions/">
-    <meta property="og:site_name" content="yolossn">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="yolossn">
-    <meta name="twitter:description" content="Hey pals, Recently I have been dabbling with Arrays in C&#43;&#43; and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
-Here I am sharing few of the CPP versions of commonly used Python List funcitons.">
-    
-      <meta name="twitter:creator" content="@yolossn">
-    
-    
 
-    
-    
-
-    
-      <meta property="og:image" content="https://www.dropbox.com/s/bsloiqcnzmg0dsi/avatar.jpeg?raw=1">
-    
-
-    
-    
-      <meta property="og:image" content="https://www.dropbox.com/s/w8uflqodc3inkd7/vector.png?raw=1">
-    
-    
-
-    
+    <link rel="canonical" href="https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -66,20 +87,23 @@ Here I am sharing few of the CPP versions of commonly used Python List funcitons
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
     
     
-    <link rel="stylesheet" href="https://www.yolossn.com/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    <link rel="stylesheet" href="https://www.yolossn.com/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
     
     
 
     
       
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-124237165-1', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-124237165-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
     
@@ -258,9 +282,9 @@ ga('send', 'pageview');
 <p>Here I am sharing few of the CPP versions of commonly used Python List funcitons.</p>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/-HnQhGwtEjs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/-HnQhGwtEjs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
 
 <!-- more -->
@@ -1042,8 +1066,8 @@ int main()
                 
               
             
-            
-  <div class="post-actions-wrap">
+            <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -1102,8 +1126,8 @@ int main()
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
             
               
@@ -1116,14 +1140,14 @@ int main()
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2018 Santhosh Nagaraj S. 
+    &copy; 2019 Santhosh Nagaraj S. 
   </span>
 </footer>
 
       </div>
       <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
-        
-  <div class="post-actions-wrap">
+        <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -1182,8 +1206,8 @@ int main()
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
       </div>
       <div id="share-options-bar" class="share-options-bar" data-behavior="1">
@@ -1234,80 +1258,13 @@ int main()
   </div>
 </div>
 
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center"></div>
-      <div class="results">
-        
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/">
-                <h3 class="media-heading">CPP version of Python List functions</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Aug 8, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">Hey pals, Recently I have been dabbling with Arrays in C++ and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
-Here I am sharing few of the CPP versions of commonly used Python List funcitons.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://www.yolossn.com/2018/08/the-site-is-live/">
-                <h3 class="media-heading">The Site Is Live!!</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Aug 8, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">Hey Pals !
-It has been a long time goal for me to have a personal blog and atlast it is live now. Hope i will write frequently.
-I am using hugo static site generator and github pages to host this blog.
-If you are curious about the theme which i am using feel free to checkout tranquilpeak
-Since I am new to using static site generators I am going to test the features in the rest of the blog feel free to stop reading if you are not here for it.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero=""
-         data-message-one=""
-         data-message-other="">
-         2 posts found
-      </p>
-    </div>
-  </div>
-</div>
+    
+
     
   
     
-    <div id="cover" style="background-image:url('https://www.yolossn.com/images/cover.jpg');"></div>
+      <div id="cover" style="background-image:url('https://www.yolossn.com/cover.jpg');"></div>
+    
   
 
 
@@ -1319,9 +1276,23 @@ Since I am new to using static site generators I am going to test the features i
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
 
 
-<script src="https://www.yolossn.com/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+<script src="https://www.yolossn.com/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
 
 
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
 
 <script>
 $(document).ready(function() {
@@ -1361,6 +1332,7 @@ $(document).ready(function() {
       </script>
     
   
+
 
 
 
