@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on yolossn</title>
-    <link>https://www.yolossn.com/tags/</link>
+    <link>https://yolossn.com/tags/</link>
     <description>Recent content in Tags on yolossn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.yolossn.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yolossn.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CPP</title>
-      <link>https://www.yolossn.com/tags/cpp/</link>
+      <link>https://yolossn.com/tags/cpp/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/tags/cpp/</guid>
+      <guid>https://yolossn.com/tags/cpp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>List</title>
-      <link>https://www.yolossn.com/tags/list/</link>
+      <link>https://yolossn.com/tags/list/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/tags/list/</guid>
+      <guid>https://yolossn.com/tags/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://www.yolossn.com/tags/python/</link>
+      <link>https://yolossn.com/tags/python/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/tags/python/</guid>
+      <guid>https://yolossn.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorial</title>
-      <link>https://www.yolossn.com/tags/tutorial/</link>
+      <link>https://yolossn.com/tags/tutorial/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/tags/tutorial/</guid>
+      <guid>https://yolossn.com/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vector</title>
-      <link>https://www.yolossn.com/tags/vector/</link>
+      <link>https://yolossn.com/tags/vector/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/tags/vector/</guid>
+      <guid>https://yolossn.com/tags/vector/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>https://www.yolossn.com/tags/blog/</link>
+      <link>https://yolossn.com/tags/blog/</link>
       <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
       
-      <guid>https://www.yolossn.com/tags/blog/</guid>
+      <guid>https://yolossn.com/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://www.yolossn.com/tags/test/</link>
+      <link>https://yolossn.com/tags/test/</link>
       <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
       
-      <guid>https://www.yolossn.com/tags/test/</guid>
+      <guid>https://yolossn.com/tags/test/</guid>
       <description></description>
     </item>
     

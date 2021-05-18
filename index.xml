@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yolossn</title>
-    <link>https://www.yolossn.com/</link>
+    <link>https://yolossn.com/</link>
     <description>Recent content on yolossn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.yolossn.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yolossn.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CPP version of Python List functions</title>
-      <link>https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/</link>
+      <link>https://yolossn.com/2018/08/cpp-version-of-python-list-functions/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yolossn.com/2018/08/cpp-version-of-python-list-functions/</guid>
+      <guid>https://yolossn.com/2018/08/cpp-version-of-python-list-functions/</guid>
       <description>Hey pals, Recently I have been dabbling with Arrays in C++ and many times felt Python has better inbuilt list functions than CPP.If you have felt the same way then this post might change it.After extensive searching in the internet I found out that most of the list functions available in python can be acheived in CPP by using the Vector and Algorithm header files properly.
 Here I am sharing few of the CPP versions of commonly used Python List funcitons.</description>
     </item>
     
     <item>
       <title>The Site Is Live!!</title>
-      <link>https://www.yolossn.com/2018/08/the-site-is-live/</link>
+      <link>https://yolossn.com/2018/08/the-site-is-live/</link>
       <pubDate>Sun, 19 Aug 2018 20:43:28 +0530</pubDate>
       
-      <guid>https://www.yolossn.com/2018/08/the-site-is-live/</guid>
+      <guid>https://yolossn.com/2018/08/the-site-is-live/</guid>
       <description>Hey Pals !
 It has been a long time goal for me to have a personal blog and atlast it is live now. Hope i will write frequently.
 I am using hugo static site generator and github pages to host this blog.
